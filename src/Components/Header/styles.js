@@ -25,4 +25,5 @@ height: 72px;
 background: #0E0B16;
 border-radius: 16px;
 color: #E7DFDD;
+font-size:36px;
 `
