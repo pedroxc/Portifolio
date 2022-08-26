@@ -25,10 +25,4 @@ height: 72px;
 background: #0E0B16;
 border-radius: 16px;
 color: #E7DFDD;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
 `
