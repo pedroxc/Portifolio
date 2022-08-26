@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-background-color: #FFFF;
+background-color: #E7DFDD;
 height: 108px;
 margin: 16px;
 display: flex;
@@ -22,9 +22,9 @@ border-radius: 16px;
 export const Button = styled.button`
 width: 340px;
 height: 72px;
-background: #000000;
+background: #0E0B16;
 border-radius: 16px;
-color: #ffff;
+color: #E7DFDD;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
