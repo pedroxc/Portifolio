@@ -1,13 +1,21 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import { Container, Title, Description, Button } from "./styles";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <Container>
       <Title>
         Pedro Xavier Coelho
-        <Button>Curriculum Vitae</Button>
+        <Button
+          onClick={() => {
+            navigate("/Curriculo");
+          }}
+        >
+          Curriculum Vitae
+        </Button>
       </Title>
       <Description>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit
