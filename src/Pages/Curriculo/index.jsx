@@ -3,6 +3,7 @@ import CV from "../../Assets/Docs/CV_PT.pdf";
 import CVIngles from "../../Assets/Docs/CV.pdf";
 import { Page, Document } from "react-pdf";
 import { useNavigate } from "react-router-dom";
+import { BrowserView, MobileView } from "react-device-detect";
 
 import { Conteiner, Button, ButtonWarper } from "./styled";
 
@@ -27,8 +28,14 @@ function Curriculo() {
             <Button onClick={() => setPdf(CV)}>Português</Button>
           )}
         </ButtonWarper>
-        <Page scale={1.5} pageNumber={1} />
-        <Page scale={1.5} pageNumber={2} />
+        <BrowserView>
+          <Page scale={1.5} pageNumber={1} />
+          <Page scale={1.5} pageNumber={2} />
+        </BrowserView>
+        <MobileView>
+          <Page scale={0.5} pageNumber={1} />
+          <Page scale={0.5} pageNumber={2} />
+        </MobileView>
       </Conteiner>
     </Document>
   );

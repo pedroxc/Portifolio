@@ -5,17 +5,15 @@ color:#C9C2F2;
 margin:48px;
 
 `
-export const Title = styled.h1`
+export const Title = styled.div`
 justify-content: space-around;
 display:flex;
+width:80vw;
 `
-export const Description = styled.h2`
+export const Description = styled.div`
 `
 export const Button=styled.button`
-position: absolute;
 width: 294px;
-height: 49px;
-right: 48px;
 border-radius:24px;
 
 font-family: 'Inter';
@@ -28,3 +26,6 @@ background-color: #E7DFDD;
 color: #374254;
 
 `
+export const ButtonWarper=styled.div`
+display:flex;
+justify-content: space-evenly;`

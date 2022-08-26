@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 background-color: #E7DFDD;
-height: 108px;
 margin: 16px;
 display: flex;
 justify-content: space-between;
@@ -26,4 +25,13 @@ background: #0E0B16;
 border-radius: 16px;
 color: #E7DFDD;
 font-size:36px;
+`
+
+export const ButtonMobile= styled.button`
+width: 30vw;
+height: 7vh;
+background: #0E0B16;
+border-radius: 16px;
+color: #E7DFDD;
+font-size:4vw;
 `
