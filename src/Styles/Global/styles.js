@@ -2,12 +2,10 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   body {
-    background: #0E0B16;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    background: #0a0310;
+    font-family: "eurostile", sans-serif;
     font-size: 36px;
-    line-height: 44px;
+    line-height: 1.125;
   }
 button:hover {opacity: 0.7}
 button:active {

@@ -14,7 +14,7 @@ height:24px;
 border-radius:24px;
 font-size:16px;
 color: #374254;
-background-color: #E7DFDD;
+background-color: #e8d18e;
 
 
 `;
