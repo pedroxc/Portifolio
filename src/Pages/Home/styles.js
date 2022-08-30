@@ -24,8 +24,8 @@ line-height: 44px;
 background-color: #E7DFDD;
 
 color: #374254;
-
 `
 export const ButtonWarper=styled.div`
 display:flex;
-justify-content: space-evenly;`
+justify-content: space-evenly;
+`
