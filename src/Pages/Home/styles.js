@@ -8,24 +8,30 @@ margin:48px;
 export const Title = styled.div`
 justify-content: space-around;
 display:flex;
-width:80vw;
+font-size:24px;
 `
+export const Skills = styled.div`
+margin-top:32px;
+
+`
+export const CardWarpper = styled.div`
+margin-top:32px;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+`;
 export const Description = styled.div`
+font-size:24px;
 `
 export const Button=styled.button`
-width: 294px;
-border-radius:24px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-background-color: #E7DFDD;
+border-radius:10px;
+font-size: 24px;
+background-color: #e8d18e;
 
 color: #374254;
-
 `
 export const ButtonWarper=styled.div`
+justify-content: space-around;
 display:flex;
-justify-content: space-evenly;`
+width:80vw;
+`
