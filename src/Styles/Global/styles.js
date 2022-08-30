@@ -2,7 +2,9 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   body {
-    background: #0a0310;
+    margin:0px;
+    max-width:100vw;
+    background: #0E0B16;
     font-family: "eurostile", sans-serif;
     font-size: 36px;
     line-height: 1.125;
