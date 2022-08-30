@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Conteiner=styled.div`
+export const Container=styled.div`
 flex-direction:column;
 display:flex;
 align-items: center;
@@ -14,7 +14,7 @@ height:24px;
 border-radius:24px;
 font-size:16px;
 color: #374254;
-background-color: #e8d18e;
+background-color:#fffaeb;
 
 
 `;

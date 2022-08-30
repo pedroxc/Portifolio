@@ -5,14 +5,14 @@ import { Page, Document } from "react-pdf";
 import { useNavigate } from "react-router-dom";
 import { BrowserView, MobileView } from "react-device-detect";
 
-import { Conteiner, Button, ButtonWarper } from "./styled";
+import { Container, Button, ButtonWarper } from "./styled";
 
 function Curriculo() {
   const navigate = useNavigate();
   const [pdf, setPdf] = useState(CV);
   return (
     <Document options={{ workerSrc: "pdf.worker.js" }} file={pdf}>
-      <Conteiner>
+      <Container>
         <ButtonWarper>
           <Button
             onClick={() => {
@@ -36,7 +36,7 @@ function Curriculo() {
           <Page scale={0.5} pageNumber={1} />
           <Page scale={0.5} pageNumber={2} />
         </MobileView>
-      </Conteiner>
+      </Container>
     </Document>
   );
 }

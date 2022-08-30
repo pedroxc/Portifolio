@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-background-color: #2f2f4d;
+background-color: #fffaeb;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 16px;
 `
 export const Icon = styled.img`
 height:72px;
@@ -18,9 +17,9 @@ export const Button = styled.button`
 width: auto;
 height: auto;
 padding:6px;
-background: #626970;
+background-color:#374254;
 border-radius: 10px;
-color: #ffff;
+color:#fffaeb;
 font-size:24px;
 `
 
