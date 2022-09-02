@@ -69,3 +69,16 @@ flex-wrap:wrap;
 justify-content: space-around;
 `;
 
+export const CertificadosButton = styled.a`
+border-radius:10px;
+font-size: 24px;
+background-color: #ffff;
+max-height:48px;
+color: #000;
+text-decoration:none;
+display: flex;
+justify-content: center;
+align-items: center;
+`;
+
+

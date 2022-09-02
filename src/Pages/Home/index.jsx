@@ -17,6 +17,7 @@ import {
   Works,
   WorkTitle,
   WorkWrapper,
+  CertificadosButton,
 } from "./styles";
 
 function Home() {
@@ -42,6 +43,14 @@ function Home() {
         >
           Curriculum Vitae
         </Button>
+      </ButtonWarper>
+      <ButtonWarper>
+        <CertificadosButton
+          href="https://1drv.ms/u/s!AgyCfLwz4zG9gpoU21aFZSOjvzK5Sg?e=b1uu1t"
+          target="_blank"
+        >
+          Ver Certificados e cursos
+        </CertificadosButton>
       </ButtonWarper>
       <Skills>
         <CardTitle>Habilidades/Skills</CardTitle>
