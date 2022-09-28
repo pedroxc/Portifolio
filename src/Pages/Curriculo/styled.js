@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
-export const Container=styled.div`
+export const Container = styled.div`
 flex-direction:column;
 display:flex;
 align-items: center;
-width:80vw;
 margin-left:16px;
+height:100vh;
+
 `
-export const Button=styled.button`
+export const Button = styled.button`
 
 width: auto;
 height:24px;
@@ -18,7 +19,7 @@ background-color:#fffaeb;
 
 
 `;
-export const ButtonWarper=styled.div`
+export const ButtonWarper = styled.div`
 margin:8px;
 display:flex;
 width:300px;

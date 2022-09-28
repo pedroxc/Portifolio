@@ -3,7 +3,6 @@ import React from "react";
 import { Container, Title, Imagem, Button } from "./styles";
 
 function Card({ data }) {
-  console.log(data);
   return (
     <Container>
       <Title>{data.title}</Title>
