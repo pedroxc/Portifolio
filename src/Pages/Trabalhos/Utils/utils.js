@@ -1,6 +1,7 @@
 import Aluroni from "../../../Assets/Images/aluroni.png";
 import SmartBank from "../../../Assets/Images/smartbank.png";
 import Barber from "../../../Assets/Images/barber.png";
+import orgCesta from "../../../Assets/Images/org_cesta.png";
 
 export const works = [
   {
@@ -17,5 +18,10 @@ export const works = [
     title: "Barbearia ALura",
     imagem: Barber,
     url: "https://barbearia-alura-pxc.netlify.app/index.html",
+  },
+  {
+    title: "App Mobile Cesta de Verduras",
+    imagem: orgCesta,
+    url: "https://cesta-de-verdura-alura-pxc.netlify.app/",
   },
 ];
