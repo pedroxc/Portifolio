@@ -3,6 +3,7 @@ import SmartBank from "../../../Assets/Images/smartbank.png";
 import Barber from "../../../Assets/Images/barber.png";
 import orgCesta from "../../../Assets/Images/org_cesta.png";
 import midi from "../../../Assets/Images/midi.png";
+import cozinha from "../../../Assets/Images/cozinha.png";
 
 export const works = [
   {
@@ -29,5 +30,10 @@ export const works = [
     title: "WebPage Simple MIDI",
     imagem: midi,
     url: "https://simple-midi-pxc.netlify.app/",
+  },
+  {
+    title: "Fruto e Fruta",
+    imagem: cozinha,
+    url: "https://frutoefruta-pxc.netlify.app/",
   },
 ];
