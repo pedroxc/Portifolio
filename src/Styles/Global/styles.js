@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     margin:0px;
     max-width:100vw;
     background: #0E0B16;
-    font-family: "eurostile", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     line-height: 1.125;
   }
