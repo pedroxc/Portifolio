@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 432px;
   max-height: 80vh;
   box-sizing: border-box;
-  background: #543de4;
+  background: #2c2748;
   border-radius: 25px;
   margin: 16px;
   display: flex;
