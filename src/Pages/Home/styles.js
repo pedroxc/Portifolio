@@ -70,3 +70,10 @@ export const CertificadosButton = styled.a`
   justify-content: center;
   align-items: center;
 `;
+export const ButtonWarpper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+`;

@@ -4,6 +4,7 @@ import Barber from "../../../Assets/Images/barber.png";
 import orgCesta from "../../../Assets/Images/org_cesta.png";
 import midi from "../../../Assets/Images/midi.png";
 import cozinha from "../../../Assets/Images/cozinha.png";
+import gitsearch from "../../../Assets/Images/gitsearch.png";
 
 export const works = [
   {
@@ -35,5 +36,10 @@ export const works = [
     title: "Fruto e Fruta",
     imagem: cozinha,
     url: "https://frutoefruta-pxc.netlify.app/",
+  },
+  {
+    title: "App de busca GitHub",
+    imagem: gitsearch,
+    url: "https://git-serch-pxc.netlify.app/",
   },
 ];

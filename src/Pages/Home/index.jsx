@@ -15,6 +15,7 @@ import {
   Works,
   WorkTitle,
   WorkWrapper,
+  ButtonWarpper,
 } from "./styles";
 
 function Home() {
@@ -25,6 +26,8 @@ function Home() {
     third: "Curriculo",
   };
   const [panel, setPanel] = useState(panels.second);
+  let randomWorks = [...works];
+  randomWorks = randomWorks.sort(() => 0.5 - Math.random()).splice(0, 3);
 
   return (
     <>
@@ -70,9 +73,11 @@ function Home() {
       <Works>
         <WorkTitle>Projetos</WorkTitle>
         <WorkWrapper>
-          {works.map((e) => {
+          {randomWorks.map((e) => {
             return <WorkCard data={e} />;
           })}
+        </WorkWrapper>
+        <ButtonWarpper>
           <Button
             onClick={() => {
               navigate("/trabalhos");
@@ -80,7 +85,7 @@ function Home() {
           >
             ver mais
           </Button>
-        </WorkWrapper>
+        </ButtonWarpper>
       </Works>
     </>
   );
