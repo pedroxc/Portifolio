@@ -1,75 +1,83 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Card from "../../Components/Card";
-import { frontednContent, backendContent, reactContent } from "./utils";
 import WorkCard from "../Trabalhos/Utils/Card";
 import { works } from "../Trabalhos/Utils/utils";
+import Habilidades from "./habilidades";
+import Perfil from "./Perfil";
+import Curriculo from "./Curriculo";
 
 import {
   Title,
-  Skills,
   Container,
-  CardWarpper,
-  Description,
-  CardTitle,
+  NaviBar,
+  Nav,
   Button,
-  ButtonWarper,
   Works,
   WorkTitle,
   WorkWrapper,
+  ButtonWarpper,
 } from "./styles";
 
 function Home() {
   const navigate = useNavigate();
+  const panels = {
+    main: "Perfil",
+    second: "Skills",
+    third: "Curriculo",
+  };
+  const [panel, setPanel] = useState(panels.second);
+  let randomWorks = [...works];
+  randomWorks = randomWorks.sort(() => 0.5 - Math.random()).splice(0, 3);
 
   return (
     <>
       <Title>Programador Full Stack,Economista e Mestre em administração</Title>
       <Container>
-        <Description>
-          <br /> Olá me chamo Pedro, sou Mestre em Administração, Bacharel em
-          Economia e Comercio Exterior. Já participei de dois projetos com
-          desenvolvimento web em React e React Native. Tenho experiencia com
-          Fintechs, tenho dois anos de experiencia com empresas do ramo de
-          investimentos.
-        </Description>
+        <NaviBar>
+          <Nav
+            onClick={() => {
+              setPanel(panels.main);
+            }}
+            style={
+              panel === "Perfil" ? { color: "blue", fontWeight: "bold" } : {}
+            }
+          >
+            Perfil
+          </Nav>
+          <Nav
+            onClick={() => {
+              setPanel(panels.second);
+            }}
+            style={
+              panel === "Skills" ? { color: "blue", fontWeight: "bold" } : {}
+            }
+          >
+            Habilidades
+          </Nav>
+          <Nav
+            onClick={() => {
+              setPanel(panels.third);
+            }}
+            style={
+              panel === "Curriculo" ? { color: "blue", fontWeight: "bold" } : {}
+            }
+          >
+            Currículo
+          </Nav>
+        </NaviBar>
+        {panel === "Perfil" && <Perfil />}
+        {panel === "Skills" && <Habilidades />}
+        {panel === "Curriculo" && <Curriculo />}
       </Container>
-      <ButtonWarper>
-        <Button
-          onClick={() => {
-            navigate("/Curriculo");
-          }}
-        >
-          Curriculum Vitae
-        </Button>
-      </ButtonWarper>
-      <Skills>
-        <CardTitle>Habilidades/Skills</CardTitle>
-        <CardWarpper>
-          <Card
-            cardType="skill"
-            title="Front-End"
-            content={frontednContent}
-          ></Card>
-          <Card
-            cardType="skill"
-            title="Back-End"
-            content={backendContent}
-          ></Card>
-          <Card
-            cardType="skill"
-            title="React & React Native"
-            content={reactContent}
-          ></Card>
-        </CardWarpper>
-      </Skills>
 
       <Works>
         <WorkTitle>Projetos</WorkTitle>
         <WorkWrapper>
-          {works.map((e) => {
+          {randomWorks.map((e) => {
             return <WorkCard data={e} />;
           })}
+        </WorkWrapper>
+        <ButtonWarpper>
           <Button
             onClick={() => {
               navigate("/trabalhos");
@@ -77,7 +85,7 @@ function Home() {
           >
             ver mais
           </Button>
-        </WorkWrapper>
+        </ButtonWarpper>
       </Works>
     </>
   );

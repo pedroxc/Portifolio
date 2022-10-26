@@ -14,7 +14,7 @@ function Header() {
       <BrowserView>
         <Button
           onClick={() => {
-            navigate("/Certificados");
+            navigate("/Contato");
           }}
         >
           Entre em Contato
@@ -23,7 +23,7 @@ function Header() {
       <MobileView>
         <ButtonMobile
           onClick={() => {
-            navigate("/Certificados");
+            navigate("/Contato");
           }}
         >
           Entre em Contato

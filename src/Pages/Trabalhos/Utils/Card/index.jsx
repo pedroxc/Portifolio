@@ -1,16 +1,17 @@
 import React from "react";
 
-import { Container, Title, Imagem, Button } from "./styles";
+import { Container, Title, Imagem, Button, ButtonWarpper } from "./styles";
 
 function Card({ data }) {
-  console.log(data);
   return (
     <Container>
       <Title>{data.title}</Title>
       <Imagem src={data.imagem} alt="" />
-      <Button href={data.url} target="_blank">
-        Ver Projeto
-      </Button>
+      <ButtonWarpper>
+        <Button href={data.url} target="_blank">
+          Ver Projeto
+        </Button>
+      </ButtonWarpper>
     </Container>
   );
 }

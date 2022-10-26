@@ -1,21 +1,22 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100vw;
-  display: inline-flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
 `;
-
 export const Button = styled.button`
   width: auto;
   height: 24px;
   border-radius: 24px;
   font-size: 16px;
-  color: #000;
+  color: #374254;
   background-color: #fffaeb;
 `;
-
-export const CardContainer = styled.div`
+export const ButtonWarper = styled.div`
+  margin: 8px;
   display: flex;
-  flex-wrap: wrap;
+  width: 300px;
+  justify-content: space-between;
 `;
