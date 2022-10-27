@@ -9,6 +9,7 @@ export const Description = styled.div`
   padding: 15px;
   text-align: center;
   display: flex;
+  box-shadow: 3px 0 10px 0 #fff;
   img {
     height: 64px;
   }

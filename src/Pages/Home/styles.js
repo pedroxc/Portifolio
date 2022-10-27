@@ -44,6 +44,7 @@ export const Works = styled.div`
   border-radius: 35px;
   margin-top: 180px;
   background-color: #fffaeb;
+  box-shadow: 3px 0 10px 0 #fff;
 `;
 
 export const WorkTitle = styled.div`
