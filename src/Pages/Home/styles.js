@@ -42,9 +42,10 @@ export const Works = styled.div`
   width: 100%;
   background: #ffffff;
   border-radius: 35px;
-  margin-top: 180px;
   background-color: #fffaeb;
   box-shadow: 3px 0 10px 0 #fff;
+  margin: 15px;
+  margin-top: 50px;
 `;
 
 export const WorkTitle = styled.div`

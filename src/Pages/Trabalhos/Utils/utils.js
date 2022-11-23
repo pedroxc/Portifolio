@@ -5,6 +5,7 @@ import orgCesta from "../../../Assets/Images/org_cesta.png";
 import midi from "../../../Assets/Images/midi.png";
 import cozinha from "../../../Assets/Images/cozinha.png";
 import gitsearch from "../../../Assets/Images/gitsearch.png";
+import nlwMobile from "../../../Assets/Images/nlwMobile.png";
 
 export const works = [
   {
@@ -41,5 +42,10 @@ export const works = [
     title: "App de busca GitHub",
     imagem: gitsearch,
     url: "https://git-serch-pxc.netlify.app/",
+  },
+  {
+    title: "App do Bolão da Copa",
+    imagem: nlwMobile,
+    url: "https://nlw-copa-mobile-pxc.netlify.app/",
   },
 ];

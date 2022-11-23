@@ -14,7 +14,11 @@ export const Container = styled.div`
   align-content: space-around;
   justify-content: space-around;
 `;
-export const Title = styled.div``;
+export const Title = styled.div`
+  color: white;
+  font-size: 22px;
+  text-align: center;
+`;
 export const Imagem = styled.img`
   height: 280px;
   width: auto;
