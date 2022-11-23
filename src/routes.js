@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import Trabalhos from "./Pages/Trabalhos";
 import Contato from "./Pages/Contato";
+import Certificados from "./Pages/Certificados";
 
 export default function AppRouter() {
   return (
@@ -13,6 +14,7 @@ export default function AppRouter() {
         <Route path="/" exact element={<Home />} />
         <Route path="/Contato" element={<Contato />} />
         <Route path="/Trabalhos" element={<Trabalhos />} />
+        <Route path="/Certificados" element={<Certificados />} />
       </Routes>
     </Router>
   );

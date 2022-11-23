@@ -5,6 +5,7 @@ import { works } from "../Trabalhos/Utils/utils";
 import Habilidades from "./habilidades";
 import Perfil from "./Perfil";
 import Curriculo from "./Curriculo";
+import Certificados from "../Certificados";
 
 import {
   Title,
@@ -24,6 +25,7 @@ function Home() {
     main: "Perfil",
     second: "Skills",
     third: "Curriculo",
+    four: "Certificados",
   };
   const [panel, setPanel] = useState(panels.second);
   let randomWorks = [...works];
@@ -64,10 +66,23 @@ function Home() {
           >
             Currículo
           </Nav>
+          <Nav
+            onClick={() => {
+              setPanel(panels.four);
+            }}
+            style={
+              panel === "Certificados"
+                ? { color: "blue", fontWeight: "bold" }
+                : {}
+            }
+          >
+            Certificados
+          </Nav>
         </NaviBar>
         {panel === "Perfil" && <Perfil />}
         {panel === "Skills" && <Habilidades />}
         {panel === "Curriculo" && <Curriculo />}
+        {panel === "Certificados" && <Certificados />}
       </Container>
 
       <Works>

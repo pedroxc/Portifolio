@@ -9,15 +9,17 @@ import Postbird from "../../Assets/Icons/postbird.png";
 import Insomnia from "../../Assets/Icons/insomnia.png";
 import Hooks from "../../Assets/Icons/hooks.png";
 import ReactNavigation from "../../Assets/Icons/reactnavigation.png";
-import Scss from "../../Assets/Icons/scss.png";
+import expo from "../../Assets/Icons/expo.png";
 import StyledComponents from "../../Assets/Icons/styledcomponents.png";
 import RouterDom from "../../Assets/Icons/routerdom.png";
+import next from "../../Assets/Icons/next.png";
 
 export const frontednContent = {
   JavaScript: Js,
   TypeScript: Ts,
   HTML: Html,
   CSS: Css,
+  "Next JS": next,
 };
 export const backendContent = {
   "Node/Js": Nodejs,
@@ -30,7 +32,7 @@ export const backendContent = {
 export const reactContent = {
   "React Router Dom": RouterDom,
   "Styled Components": StyledComponents,
-  "SCSS e SASS": Scss,
+  Expo: expo,
   "React Navigation": ReactNavigation,
   "React Hooks": Hooks,
 };
