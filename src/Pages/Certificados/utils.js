@@ -76,7 +76,7 @@ export const data = [
     title: "Getting Started with R for Data Science",
     pdf: RforData,
     date: "13/03/2018",
-    from: "Alura",
+    from: "Udemy",
   },
   {
     title: "React Native: Criando um App",
