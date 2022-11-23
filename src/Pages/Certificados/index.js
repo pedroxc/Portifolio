@@ -3,12 +3,10 @@ import { data } from "./utils";
 import { Container, Card, Button } from "./styles";
 import ReactModal from "react-modal";
 import Modal from "./Modal";
-import { useNavigate } from "react-router-dom";
 
 export default function Certificados() {
   const [modal, openModal] = useState(false);
   const [doc, setDoc] = useState();
-  const navigate = useNavigate();
   return (
     <Container>
       {data.map((e) => {
