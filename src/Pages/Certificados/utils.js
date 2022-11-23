@@ -15,6 +15,7 @@ import reactReactRouter from "../../Assets/Docs/Certificados/reactReactRouter.pd
 import RforData from "../../Assets/Docs/Certificados/RforData.pdf";
 import reactTypeScript from "../../Assets/Docs/Certificados/reactTypeScript.pdf";
 import reactStyledComponents from "../../Assets/Docs/Certificados/reactStyledComponents.pdf";
+import javaScript2 from "../../Assets/Docs/Certificados/javascript.pdf";
 
 export const data = [
   {
@@ -117,6 +118,12 @@ export const data = [
   {
     title: "Fundamentos Do JavaScript: Tippos, Varávies e Funções",
     pdf: JavaScript1,
+    date: "26/10/2021",
+    from: "Alura",
+  },
+  {
+    title: "JavaScript 2.0 - Arays",
+    pdf: javaScript2,
     date: "26/10/2021",
     from: "Alura",
   },
