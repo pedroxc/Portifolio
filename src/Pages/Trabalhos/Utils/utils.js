@@ -6,8 +6,14 @@ import midi from "../../../Assets/Images/midi.png";
 import cozinha from "../../../Assets/Images/cozinha.png";
 import gitsearch from "../../../Assets/Images/gitsearch.png";
 import nlwMobile from "../../../Assets/Images/nlwMobile.png";
+import nlw from "../../../Assets/Images/nlw.png";
 
 export const works = [
+  {
+    title: "Nlw Copa",
+    imagem: nlw,
+    url: "https://nlw-web-page-pxc.netlify.app/",
+  },
   {
     title: "Cardápio Aluroni",
     imagem: Aluroni,
