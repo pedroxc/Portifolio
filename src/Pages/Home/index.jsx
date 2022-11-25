@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import WorkCard from "../Trabalhos/Utils/Card";
+import Card from "../Trabalhos/Utils/Card";
+import WorkCard from "../Trabalhos/Utils/Card/workCard";
 import { works } from "../Trabalhos/Utils/utils";
 import Habilidades from "./habilidades";
 import Perfil from "./Perfil";
 import Curriculo from "./Curriculo";
 import Certificados from "../Certificados";
+import { recentWords } from "./utils";
 
 import {
   Title,
@@ -84,12 +86,19 @@ function Home() {
         {panel === "Curriculo" && <Curriculo />}
         {panel === "Certificados" && <Certificados />}
       </Container>
-
+      <Works>
+        <WorkTitle>Trabalhos recentes</WorkTitle>
+        <WorkWrapper>
+          {recentWords.map((e) => {
+            return <WorkCard data={e} />;
+          })}
+        </WorkWrapper>
+      </Works>
       <Works>
         <WorkTitle>Projetos</WorkTitle>
         <WorkWrapper>
           {randomWorks.map((e) => {
-            return <WorkCard data={e} />;
+            return <Card data={e} />;
           })}
         </WorkWrapper>
         <ButtonWarpper>

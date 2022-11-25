@@ -13,6 +13,9 @@ import expo from "../../Assets/Icons/expo.png";
 import StyledComponents from "../../Assets/Icons/styledcomponents.png";
 import RouterDom from "../../Assets/Icons/routerdom.png";
 import next from "../../Assets/Icons/next.png";
+import jaulie from "../../Assets/Images/jaulie.png";
+import blu from "../../Assets/Images/blu.png";
+import contafuturo from "../../Assets/Images/contafuturo.png";
 
 export const frontednContent = {
   JavaScript: Js,
@@ -36,3 +39,20 @@ export const reactContent = {
   "React Navigation": ReactNavigation,
   "React Hooks": Hooks,
 };
+export const recentWords = [
+  {
+    title: "BLu Valia",
+    url: "https://land-page-vert.vercel.app/",
+    imagem: blu,
+  },
+  {
+    title: "Jaulie Energia Solar",
+    url: "https://geracao.solar/",
+    imagem: jaulie,
+  },
+  {
+    title: "Conta Futuro",
+    url: "https://www.contafuturo.com.br/",
+    imagem: contafuturo,
+  },
+];

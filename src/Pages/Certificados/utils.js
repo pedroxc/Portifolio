@@ -16,12 +16,19 @@ import RforData from "../../Assets/Docs/Certificados/RforData.pdf";
 import reactTypeScript from "../../Assets/Docs/Certificados/reactTypeScript.pdf";
 import reactStyledComponents from "../../Assets/Docs/Certificados/reactStyledComponents.pdf";
 import javaScript2 from "../../Assets/Docs/Certificados/javascript.pdf";
+import reactApi from "../../Assets/Docs/Certificados/reactApi.pdf";
 
 export const data = [
   {
     title: "Fudamentos de React: Escrevendo com TypeScript.",
     pdf: reactTypeScript,
     date: "21/05/2022",
+    from: "Alura",
+  },
+  {
+    title: "React: Integrando seu Projeto REact Com Web APIs",
+    pdf: reactApi,
+    date: "25/11/2022",
     from: "Alura",
   },
   {
