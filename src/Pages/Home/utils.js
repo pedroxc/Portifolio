@@ -16,7 +16,6 @@ import next from "../../Assets/Icons/next.png";
 import jaulie from "../../Assets/Images/jaulie.png";
 import blu from "../../Assets/Images/blu.png";
 import contafuturo from "../../Assets/Images/contafuturo.png";
-import todo from "../../Assets/Images/todo.png";
 
 export const frontednContent = {
   JavaScript: Js,
