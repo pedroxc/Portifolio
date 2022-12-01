@@ -16,6 +16,7 @@ import next from "../../Assets/Icons/next.png";
 import jaulie from "../../Assets/Images/jaulie.png";
 import blu from "../../Assets/Images/blu.png";
 import contafuturo from "../../Assets/Images/contafuturo.png";
+import todo from "../../Assets/Images/todo.png";
 
 export const frontednContent = {
   JavaScript: Js,
@@ -41,11 +42,6 @@ export const reactContent = {
 };
 export const recentWords = [
   {
-    title: "BLu Valia",
-    url: "https://land-page-vert.vercel.app/",
-    imagem: blu,
-  },
-  {
     title: "Jaulie Energia Solar",
     url: "https://geracao.solar/",
     imagem: jaulie,
@@ -54,5 +50,10 @@ export const recentWords = [
     title: "Conta Futuro",
     url: "https://www.contafuturo.com.br/",
     imagem: contafuturo,
+  },
+  {
+    title: "BLu Valia",
+    url: "https://land-page-vert.vercel.app/",
+    imagem: blu,
   },
 ];

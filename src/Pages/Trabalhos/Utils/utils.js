@@ -7,6 +7,7 @@ import cozinha from "../../../Assets/Images/cozinha.png";
 import gitsearch from "../../../Assets/Images/gitsearch.png";
 import nlwMobile from "../../../Assets/Images/nlwMobile.png";
 import nlw from "../../../Assets/Images/nlw.png";
+import todo from "../../../Assets/Images/todo.png";
 
 export const works = [
   {
@@ -53,5 +54,10 @@ export const works = [
     title: "App do Bolão da Copa",
     imagem: nlwMobile,
     url: "https://nlw-copa-mobile-pxc.netlify.app/",
+  },
+  {
+    title: "Toto List",
+    url: "https://todolist-pxc.vercel.app/",
+    imagem: todo,
   },
 ];
