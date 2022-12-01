@@ -42,7 +42,7 @@ export const reactContent = {
 export const recentWords = [
   {
     title: "Jaulie Energia Solar",
-    url: "https://geracao.solar/",
+    url: "https://linklist.bio/jaulie",
     imagem: jaulie,
   },
   {
