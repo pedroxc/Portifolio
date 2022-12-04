@@ -29,7 +29,7 @@ function Home() {
     third: "Curriculo",
     four: "Certificados",
   };
-  const [panel, setPanel] = useState(panels.second);
+  const [panel, setPanel] = useState(panels.main);
   let randomWorks = [...works];
   randomWorks = randomWorks.sort(() => 0.5 - Math.random()).splice(0, 3);
 
