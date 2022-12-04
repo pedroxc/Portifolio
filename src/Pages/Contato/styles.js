@@ -8,8 +8,9 @@ export const Container = styled.div`
   padding: 15px;
   width: 50%;
   @media screen and (max-width: 560px) {
-    width: 100%;
-    font-size: 30px;
+    width: 90vw;
+    marign: 25px auto;
+    font-size: 22px;
   }
   box-shadow: 3px 0 10px 0 #fff;
 
