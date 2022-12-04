@@ -41,11 +41,6 @@ export const reactContent = {
 };
 export const recentWords = [
   {
-    title: "Jaulie Energia Solar",
-    url: "https://linklist.bio/jaulie",
-    imagem: jaulie,
-  },
-  {
     title: "Conta Futuro",
     url: "https://www.contafuturo.com.br/",
     imagem: contafuturo,
@@ -54,5 +49,10 @@ export const recentWords = [
     title: "BLu Valia",
     url: "https://land-page-vert.vercel.app/",
     imagem: blu,
+  },
+  {
+    title: "Jaulie Energia Solar",
+    url: "https://linklist.bio/jaulie",
+    imagem: jaulie,
   },
 ];
