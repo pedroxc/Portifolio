@@ -13,6 +13,16 @@ export const Description = styled.div`
   img {
     height: 64px;
   }
+  @media (max-width: 1000px) {
+    max-width: 85vw;
+    height: fit-content;
+    margin: 25px auto;
+    flex-direction: column;
+    img {
+      height: 64px;
+      width: 64px;
+    }
+  }
 `;
 export const Text = styled.div`
   margin: 15px;
@@ -40,4 +50,11 @@ export const Links = styled.div`
     color: blue;
     text-decoration: none;
   }
+  @media (max-width: 1000px) {
+    img {
+      height: 32px;
+      width: 32px;
+    }
+  }
 `;
+export const ImagemWarpper = styled.div``;

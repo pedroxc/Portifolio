@@ -1,5 +1,5 @@
 import React from "react";
-import { Description, Links, Text } from "./styles";
+import { Description, Links, Text, ImagemWarpper } from "./styles";
 import code from "../../../Assets/Icons/code.png";
 import linkedin from "../../../Assets/Icons/linkedin.png";
 import github from "../../../Assets/Icons/github.png";
@@ -7,7 +7,9 @@ import github from "../../../Assets/Icons/github.png";
 export default function Perfil() {
   return (
     <Description>
-      <img src={code} alt="code" />
+      <ImagemWarpper>
+        <img src={code} alt="code" />
+      </ImagemWarpper>
       <div>
         <Text>
           Olá me chamo Pedro, sou Mestre em Administração, Bacharel em Economia
@@ -34,8 +36,9 @@ export default function Perfil() {
           </div>
         </Links>
       </div>
-      <div></div>
-      <img src={code} alt="code" />
+      <ImagemWarpper>
+        <img src={code} alt="code" className="mobile" />
+      </ImagemWarpper>
     </Description>
   );
 }

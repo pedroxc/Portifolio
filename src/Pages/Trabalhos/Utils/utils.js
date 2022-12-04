@@ -56,7 +56,7 @@ export const works = [
     url: "https://nlw-copa-mobile-pxc.netlify.app/",
   },
   {
-    title: "Toto List",
+    title: "To-do List",
     url: "https://todolist-pxc.vercel.app/",
     imagem: todo,
   },
