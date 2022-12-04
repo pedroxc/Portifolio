@@ -26,11 +26,9 @@ export const Card = styled.div`
     font-weight: bold;
     margin: 2px;
   }
-  iframe {
+  img {
     height: 100%;
     width: 100%;
-    scale: 1;
-    overflow: hidden;
   }
   span {
     font-size: 18px;
@@ -49,4 +47,18 @@ export const Button = styled.button`
   border-radius: 10px;
   color: #fffaeb;
   font-size: 24px;
+`;
+export const SimpleButton = styled.a`
+  margin: auto;
+  width: 120px;
+  height: 32px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 12px auto;
+  background-color: #374254;
+  border-radius: 10px;
+  color: #fffaeb;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
 `;

@@ -35,7 +35,9 @@ function Home() {
 
   return (
     <>
-      <Title>Programador Full Stack,Economista e Mestre em administração</Title>
+      <Title>
+        Programador Full Stack, Economista e Mestre em Administração
+      </Title>
       <Container>
         <NaviBar>
           <Nav

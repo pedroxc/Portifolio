@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { data } from "./utils";
-import { Container, Card, Button } from "./styles";
-import ReactModal from "react-modal";
-import Modal from "./Modal";
+import { Container, Card, SimpleButton } from "./styles";
 
 export default function Certificados() {
-  const [modal, openModal] = useState(false);
-  const [doc, setDoc] = useState();
   return (
     <Container>
       {data.map((e) => {
@@ -20,33 +16,16 @@ export default function Certificados() {
                 justifyContent: "center",
               }}
             >
-              <iframe src={e.pdf} title={e.title} scrolling="no" />
-              <Button
-                onClick={() => {
-                  setDoc(e);
-                  openModal(true);
-                }}
-              >
+              <img src={e.pdf} alt={e.title} />
+              <SimpleButton href={e.link} target="_blank" rel="noreferrer">
                 Ver
-              </Button>
+              </SimpleButton>
             </div>
             <span>Cursado em: {e.from}</span>
             <span>Data: {e.date}</span>
           </Card>
         );
       })}
-      <ReactModal
-        style={{
-          content: {
-            maxWidth: "70vw",
-            maxHeight: "70vh",
-          },
-        }}
-        isOpen={modal}
-      >
-        <Modal doc={doc} />
-        <button onClick={() => openModal(false)}>Fechar</button>
-      </ReactModal>
     </Container>
   );
 }
