@@ -8,6 +8,7 @@ import gitsearch from "../../../Assets/Images/gitsearch.png";
 import nlwMobile from "../../../Assets/Images/nlwMobile.png";
 import nlw from "../../../Assets/Images/nlw.png";
 import todo from "../../../Assets/Images/todo.png";
+import pongscratch from "../../../Assets/Images/pongscratch.png";
 
 export const works = [
   {
@@ -59,5 +60,10 @@ export const works = [
     title: "To-do List",
     url: "https://todolist-pxc.vercel.app/",
     imagem: todo,
+  },
+  {
+    title: "Pong com Scratch",
+    url: "https://scratch.mit.edu/projects/772330536",
+    imagem: pongscratch,
   },
 ];
