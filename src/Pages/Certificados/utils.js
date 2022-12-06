@@ -21,6 +21,7 @@ import css from "../../Assets/Docs/Certificados/css-1.png";
 import javascriptweb from "../../Assets/Docs/Certificados/javascriptweb.png";
 import rdozero from "../../Assets/Docs/Certificados/rdozero.jpeg";
 import rarima from "../../Assets/Docs/Certificados/rarima.jpeg";
+import pong from "../../Assets/Docs/Certificados/pong.png";
 
 export const data = [
   {
@@ -184,5 +185,12 @@ export const data = [
     date: "18/10/2022",
     from: "Alura",
     link: "https://cursos.alura.com.br/user/pedroxaviercoelho/course/arquitetura-css/certificate",
+  },
+  {
+    title: "Lógica de Programação 1",
+    pdf: pong,
+    date: "06/12/2022",
+    form: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/pong-javascript",
   },
 ];

@@ -9,6 +9,7 @@ import nlwMobile from "../../../Assets/Images/nlwMobile.png";
 import nlw from "../../../Assets/Images/nlw.png";
 import todo from "../../../Assets/Images/todo.png";
 import pongscratch from "../../../Assets/Images/pongscratch.png";
+import pong from "../../../Assets/Images/pong.png";
 
 export const works = [
   {
@@ -45,6 +46,11 @@ export const works = [
     title: "Fruto e Fruta",
     imagem: cozinha,
     url: "https://frutoefruta-pxc.netlify.app/",
+  },
+  {
+    title: "Pong com P5/JS",
+    imagem: pong,
+    url: "https://pong-pxc.netlify.app/",
   },
   {
     title: "App de busca GitHub",
