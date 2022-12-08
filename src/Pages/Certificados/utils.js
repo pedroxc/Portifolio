@@ -22,6 +22,7 @@ import javascriptweb from "../../Assets/Docs/Certificados/javascriptweb.png";
 import rdozero from "../../Assets/Docs/Certificados/rdozero.jpeg";
 import rarima from "../../Assets/Docs/Certificados/rarima.jpeg";
 import pong from "../../Assets/Docs/Certificados/pong.png";
+import http1 from "../../Assets/Docs/Certificados/http1.png";
 
 export const data = [
   {
@@ -164,6 +165,13 @@ export const data = [
     date: "15/10/2022",
     from: "Alura",
     link: "https://cursos.alura.com.br/user/pedroxaviercoelho/course/html5-css3-avancando-css/certificate",
+  },
+  {
+    title: "HTTP - Entendo a WEB por Baixo dos Panos",
+    pdf: http1,
+    date: "08/10/2022",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/http-fundamentos",
   },
   {
     title: "Fundamentos Do JavaScript: Tippos, Varávies e Funções",
