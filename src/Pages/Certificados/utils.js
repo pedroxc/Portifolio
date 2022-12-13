@@ -23,6 +23,7 @@ import rdozero from "../../Assets/Docs/Certificados/rdozero.jpeg";
 import rarima from "../../Assets/Docs/Certificados/rarima.jpeg";
 import pong from "../../Assets/Docs/Certificados/pong.png";
 import http1 from "../../Assets/Docs/Certificados/http1.png";
+import python1 from "../../Assets/Docs/Certificados/python1.png";
 
 export const data = [
   {
@@ -158,6 +159,13 @@ export const data = [
     date: "28/09/2022",
     from: "Alura",
     link: "https://cursos.alura.com.br/user/pedroxaviercoelho/course/html5-css3-formularios-tabelas/certificate",
+  },
+  {
+    title: "Python - Começando com a Linguagem",
+    pdf: python1,
+    date: "13/12/2022",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/python-introducao-a-linguagem",
   },
   {
     title: "HTML5 E CSS3 PARTE 4: Avançando no CSS",
