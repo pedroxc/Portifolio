@@ -25,6 +25,7 @@ import pong from "../../Assets/Docs/Certificados/pong.png";
 import http1 from "../../Assets/Docs/Certificados/http1.png";
 import python1 from "../../Assets/Docs/Certificados/python1.png";
 import python2 from "../../Assets/Docs/Certificados/python2.png";
+import python3 from "../../Assets/Docs/Certificados/python3.png";
 import arquiteturaCPU from "../../Assets/Docs/Certificados/ArquiteturaCPU.png";
 
 export const data = [
@@ -175,6 +176,13 @@ export const data = [
     date: "13/12/2022",
     from: "Alura",
     link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/python-3-avancando-na-linguagem",
+  },
+  {
+    title: "Python - Entendendo a Orientação a Objetos",
+    pdf: python3,
+    date: "15/12/2022",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/python-3-intro-orientacao-objetos",
   },
   {
     title: "HTML5 E CSS3 PARTE 4: Avançando no CSS",
