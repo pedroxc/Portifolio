@@ -25,6 +25,7 @@ import pong from "../../Assets/Docs/Certificados/pong.png";
 import http1 from "../../Assets/Docs/Certificados/http1.png";
 import python1 from "../../Assets/Docs/Certificados/python1.png";
 import python2 from "../../Assets/Docs/Certificados/python2.png";
+import arquiteturaCPU from "../../Assets/Docs/Certificados/ArquiteturaCPU.png";
 
 export const data = [
   {
@@ -209,6 +210,14 @@ export const data = [
     date: "18/10/2022",
     from: "Alura",
     link: "https://cursos.alura.com.br/user/pedroxaviercoelho/course/arquitetura-css/certificate",
+  },
+  {
+    title:
+      "Arquitetura de Computadores - Por Traś de Como seu Programa Funciona",
+    pdf: arquiteturaCPU,
+    date: "15/12/2022",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/user/pedroxaviercoelho/course/arquitetura-computadores-funcionamento-programa/certificate",
   },
   {
     title: "Lógica de Programação 1",
