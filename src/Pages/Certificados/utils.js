@@ -27,6 +27,7 @@ import python1 from "../../Assets/Docs/Certificados/python1.png";
 import python2 from "../../Assets/Docs/Certificados/python2.png";
 import python3 from "../../Assets/Docs/Certificados/python3.png";
 import arquiteturaCPU from "../../Assets/Docs/Certificados/ArquiteturaCPU.png";
+import ceo from "../../Assets/Docs/Certificados/ceo.png";
 
 export const data = [
   {
@@ -183,6 +184,13 @@ export const data = [
     date: "15/12/2022",
     from: "Alura",
     link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/python-3-intro-orientacao-objetos",
+  },
+  {
+    title: "CEO - Otimização de Sites",
+    pdf: ceo,
+    date: "22/12/2022",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/seo-otimizacao-sites",
+    from: "ALura",
   },
   {
     title: "HTML5 E CSS3 PARTE 4: Avançando no CSS",
