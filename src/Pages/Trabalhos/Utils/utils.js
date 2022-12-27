@@ -10,6 +10,7 @@ import nlw from "../../../Assets/Images/nlw.png";
 import todo from "../../../Assets/Images/todo.png";
 import pongscratch from "../../../Assets/Images/pongscratch.png";
 import pong from "../../../Assets/Images/pong.png";
+import flexbox from "../../../Assets/Images/flexbox.png";
 
 export const works = [
   {
@@ -71,5 +72,10 @@ export const works = [
     title: "Pong com Scratch",
     url: "https://scratch.mit.edu/projects/772330536",
     imagem: pongscratch,
+  },
+  {
+    title: "Alurinha - Flex Box",
+    url: "https://flex-box-alurinha.netlify.app/",
+    imagem: flexbox,
   },
 ];

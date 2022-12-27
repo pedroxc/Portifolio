@@ -28,6 +28,7 @@ import python2 from "../../Assets/Docs/Certificados/python2.png";
 import python3 from "../../Assets/Docs/Certificados/python3.png";
 import arquiteturaCPU from "../../Assets/Docs/Certificados/ArquiteturaCPU.png";
 import ceo from "../../Assets/Docs/Certificados/ceo.png";
+import flexbox from "../../Assets/Docs/Certificados/flexbox.png";
 
 export const data = [
   {
@@ -219,6 +220,13 @@ export const data = [
     date: "23/11/2022",
     from: "Alura",
     link: "https://cursos.alura.com.br/user/pedroxaviercoelho/course/javascript-arrays/certificate",
+  },
+  {
+    title: "FlexBox - Posicione elementros na tela",
+    pdf: flexbox,
+    date: "27/12/2022",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/posicione-elementos-com-flexbox",
   },
   {
     title: "Arquitetura CSS - Descomplicando Problemas",
