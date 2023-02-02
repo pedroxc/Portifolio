@@ -11,8 +11,14 @@ import todo from "../../../Assets/Images/todo.png";
 import pongscratch from "../../../Assets/Images/pongscratch.png";
 import pong from "../../../Assets/Images/pong.png";
 import flexbox from "../../../Assets/Images/flexbox.png";
+import powerBi1 from "../../../Assets/Images/alurapetspowerbi.png";
 
 export const works = [
+  {
+    title: "Alura Pets - Power BI",
+    imagem: powerBi1,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiY2NkZjI5MWItNTlmYS00NjdlLWFlZGQtYWRhNDhiZWNjNzRjIiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9",
+  },
   {
     title: "Nlw Copa",
     imagem: nlw,

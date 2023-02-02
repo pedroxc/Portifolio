@@ -29,8 +29,16 @@ import python3 from "../../Assets/Docs/Certificados/python3.png";
 import arquiteturaCPU from "../../Assets/Docs/Certificados/ArquiteturaCPU.png";
 import ceo from "../../Assets/Docs/Certificados/ceo.png";
 import flexbox from "../../Assets/Docs/Certificados/flexbox.png";
+import powerBi1 from "../../Assets/Docs/Certificados/powerBi1.png";
 
 export const data = [
+  {
+    title: "Power B.I. Desktop: Construindo o primeiro DashBoard",
+    pdf: powerBi1,
+    date: "02/02/2023",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-desktop-primeiro-dashboard",
+  },
   {
     title: "Fudamentos de React: Escrevendo com TypeScript.",
     pdf: reactTypeScript,
