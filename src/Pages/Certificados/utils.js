@@ -30,6 +30,8 @@ import arquiteturaCPU from "../../Assets/Docs/Certificados/ArquiteturaCPU.png";
 import ceo from "../../Assets/Docs/Certificados/ceo.png";
 import flexbox from "../../Assets/Docs/Certificados/flexbox.png";
 import powerBi1 from "../../Assets/Docs/Certificados/powerBi1.png";
+import powerbi2 from "../../Assets/Docs/Certificados/powerbi2.png";
+import olistcert from "../../Assets/Docs/Certificados/olistcert.png";
 
 export const data = [
   {
@@ -38,6 +40,20 @@ export const data = [
     date: "02/02/2023",
     from: "Alura",
     link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-desktop-primeiro-dashboard",
+  },
+  {
+    title: "Dashboard com Power BI: Vizializando Dados",
+    pdf: powerbi2,
+    date: "03/02/2023",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-visualizando-dados",
+  },
+  {
+    title: "Power BI Desktop- tratamento de dados no Power Query",
+    pdf: olistcert,
+    date: "06/02/2023",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-desktop-tratamento-dados-power-query",
   },
   {
     title: "Fudamentos de React: Escrevendo com TypeScript.",

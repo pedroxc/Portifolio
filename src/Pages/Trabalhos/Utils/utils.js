@@ -12,12 +12,24 @@ import pongscratch from "../../../Assets/Images/pongscratch.png";
 import pong from "../../../Assets/Images/pong.png";
 import flexbox from "../../../Assets/Images/flexbox.png";
 import powerBi1 from "../../../Assets/Images/alurapetspowerbi.png";
+import powerbi2 from "../../../Assets/Images/powerbi2.png";
+import olist from "../../../Assets/Images/olist.png";
 
 export const works = [
   {
     title: "Alura Pets - Power BI",
     imagem: powerBi1,
     url: "https://app.powerbi.com/view?r=eyJrIjoiY2NkZjI5MWItNTlmYS00NjdlLWFlZGQtYWRhNDhiZWNjNzRjIiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9",
+  },
+  {
+    title: "Clube do Livro Alura - Power BI",
+    imagem: powerbi2,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiZDI2NmQyYWEtMjRjZC00NGUyLTk1MDItOGU3MDYyZTgwOWZlIiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9&pageName=ReportSection1d1f91aa49a4587e211f",
+  },
+  {
+    title: "Alura E-Commerce - Power BI",
+    imagem: olist,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiM2JkNmI2NmYtODA0Mi00NTllLWE5MWYtY2Q1ZGRiMWZhMWE2IiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9",
   },
   {
     title: "Nlw Copa",
