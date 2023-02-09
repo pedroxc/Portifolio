@@ -32,6 +32,7 @@ import flexbox from "../../Assets/Docs/Certificados/flexbox.png";
 import powerBi1 from "../../Assets/Docs/Certificados/powerBi1.png";
 import powerbi2 from "../../Assets/Docs/Certificados/powerbi2.png";
 import olistcert from "../../Assets/Docs/Certificados/olistcert.png";
+import dax from "../../Assets/Docs/Certificados/dax.png";
 
 export const data = [
   {
@@ -54,6 +55,13 @@ export const data = [
     date: "06/02/2023",
     from: "Alura",
     link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-desktop-tratamento-dados-power-query",
+  },
+  {
+    title: "Power BI - Entendo as fórmulas DAX",
+    pdf: dax,
+    date: "09/02/2023",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-formulas-dax",
   },
   {
     title: "Fudamentos de React: Escrevendo com TypeScript.",

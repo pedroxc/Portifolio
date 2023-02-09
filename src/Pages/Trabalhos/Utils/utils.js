@@ -14,6 +14,7 @@ import flexbox from "../../../Assets/Images/flexbox.png";
 import powerBi1 from "../../../Assets/Images/alurapetspowerbi.png";
 import powerbi2 from "../../../Assets/Images/powerbi2.png";
 import olist from "../../../Assets/Images/olist.png";
+import vendasdax from "../../../Assets/Images/vendasdax.png";
 
 export const works = [
   {
@@ -30,6 +31,11 @@ export const works = [
     title: "Alura E-Commerce - Power BI",
     imagem: olist,
     url: "https://app.powerbi.com/view?r=eyJrIjoiM2JkNmI2NmYtODA0Mi00NTllLWE5MWYtY2Q1ZGRiMWZhMWE2IiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9",
+  },
+  {
+    title: "Alura Relatorios usando a Linguagem DAX",
+    imagem: vendasdax,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiMTI1NDViMzktMGEwOS00OWFlLWFlMzItMzEyYmVmMTJkYTM3IiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9&pageName=ReportSectiond3384565433e43ac7598",
   },
   {
     title: "Nlw Copa",
