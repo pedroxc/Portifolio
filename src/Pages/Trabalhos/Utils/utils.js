@@ -15,6 +15,7 @@ import powerBi1 from "../../../Assets/Images/alurapetspowerbi.png";
 import powerbi2 from "../../../Assets/Images/powerbi2.png";
 import olist from "../../../Assets/Images/olist.png";
 import vendasdax from "../../../Assets/Images/vendasdax.png";
+import aluratyper from "../../../Assets/Images/aluratyper.png";
 
 export const works = [
   {
@@ -31,6 +32,11 @@ export const works = [
     title: "Alura E-Commerce - Power BI",
     imagem: olist,
     url: "https://app.powerbi.com/view?r=eyJrIjoiM2JkNmI2NmYtODA0Mi00NTllLWE5MWYtY2Q1ZGRiMWZhMWE2IiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9",
+  },
+  {
+    title: "Alura-Typer",
+    imagem: aluratyper,
+    url: "https://alura-typer-pxc.netlify.app/",
   },
   {
     title: "Alura Relatorios usando a Linguagem DAX",

@@ -33,6 +33,7 @@ import powerBi1 from "../../Assets/Docs/Certificados/powerBi1.png";
 import powerbi2 from "../../Assets/Docs/Certificados/powerbi2.png";
 import olistcert from "../../Assets/Docs/Certificados/olistcert.png";
 import dax from "../../Assets/Docs/Certificados/dax.png";
+import jquery1 from "../../Assets/Docs/Certificados/jquery1.png";
 
 export const data = [
   {
@@ -48,6 +49,13 @@ export const data = [
     date: "03/02/2023",
     from: "Alura",
     link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-visualizando-dados",
+  },
+  {
+    title: "Jquery : Domine a biblioteca mais popular do mercado parte 1",
+    pdf: jquery1,
+    date: "22/02/2023",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/jquery-a-biblioteca-do-mercado",
   },
   {
     title: "Power BI Desktop- tratamento de dados no Power Query",
