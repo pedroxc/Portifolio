@@ -16,6 +16,7 @@ import powerbi2 from "../../../Assets/Images/powerbi2.png";
 import olist from "../../../Assets/Images/olist.png";
 import vendasdax from "../../../Assets/Images/vendasdax.png";
 import aluratyper from "../../../Assets/Images/aluratyper.png";
+import powerbi3 from "../../../Assets/Images/powerbi3.png";
 
 export const works = [
   {
@@ -37,6 +38,11 @@ export const works = [
     title: "Alura-Typer",
     imagem: aluratyper,
     url: "https://alura-typer-pxc.netlify.app/",
+  },
+  {
+    title: "DashBoar RH - Power Bi",
+    imagem: powerbi3,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiYmUxMzMyNDYtNzhlNS00OTQwLWI5Y2EtN2RhODk3MTUzNDY1IiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9&pageName=ReportSection",
   },
   {
     title: "Alura Relatorios usando a Linguagem DAX",

@@ -34,6 +34,7 @@ import powerbi2 from "../../Assets/Docs/Certificados/powerbi2.png";
 import olistcert from "../../Assets/Docs/Certificados/olistcert.png";
 import dax from "../../Assets/Docs/Certificados/dax.png";
 import jquery1 from "../../Assets/Docs/Certificados/jquery1.png";
+import powerBI3 from "../../Assets/Docs/Certificados/powerBI3.png";
 
 export const data = [
   {
@@ -70,6 +71,13 @@ export const data = [
     date: "09/02/2023",
     from: "Alura",
     link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-formulas-dax",
+  },
+  {
+    title: "Power BI: Explorando Recursos Visuais.",
+    pdf: powerBI3,
+    date: "27/02/2023",
+    from: "Alura",
+    link: "https://cursos.alura.com.br/certificate/pedroxaviercoelho/power-bi-explorando-recursos-visuais",
   },
   {
     title: "Fudamentos de React: Escrevendo com TypeScript.",
