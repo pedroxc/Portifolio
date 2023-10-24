@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 36px;
     line-height: 1.125;
   }
-button:hover {opacity: 0.7}
+button:hover {opacity: 0.6}
 button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);}
