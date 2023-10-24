@@ -5,8 +5,55 @@ import orgCesta from "../../../Assets/Images/org_cesta.png";
 import midi from "../../../Assets/Images/midi.png";
 import cozinha from "../../../Assets/Images/cozinha.png";
 import gitsearch from "../../../Assets/Images/gitsearch.png";
+import nlwMobile from "../../../Assets/Images/nlwMobile.png";
+import nlw from "../../../Assets/Images/nlw.png";
+import todo from "../../../Assets/Images/todo.png";
+import pongscratch from "../../../Assets/Images/pongscratch.png";
+import pong from "../../../Assets/Images/pong.png";
+import flexbox from "../../../Assets/Images/flexbox.png";
+import powerBi1 from "../../../Assets/Images/alurapetspowerbi.png";
+import powerbi2 from "../../../Assets/Images/powerbi2.png";
+import olist from "../../../Assets/Images/olist.png";
+import vendasdax from "../../../Assets/Images/vendasdax.png";
+import aluratyper from "../../../Assets/Images/aluratyper.png";
+import powerbi3 from "../../../Assets/Images/powerbi3.png";
 
 export const works = [
+  {
+    title: "Alura Pets - Power BI",
+    imagem: powerBi1,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiY2NkZjI5MWItNTlmYS00NjdlLWFlZGQtYWRhNDhiZWNjNzRjIiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9",
+  },
+  {
+    title: "Clube do Livro Alura - Power BI",
+    imagem: powerbi2,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiZDI2NmQyYWEtMjRjZC00NGUyLTk1MDItOGU3MDYyZTgwOWZlIiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9&pageName=ReportSection1d1f91aa49a4587e211f",
+  },
+  {
+    title: "Alura E-Commerce - Power BI",
+    imagem: olist,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiM2JkNmI2NmYtODA0Mi00NTllLWE5MWYtY2Q1ZGRiMWZhMWE2IiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9",
+  },
+  {
+    title: "Alura-Typer",
+    imagem: aluratyper,
+    url: "https://alura-typer-pxc.netlify.app/",
+  },
+  {
+    title: "DashBoar RH - Power Bi",
+    imagem: powerbi3,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiYmUxMzMyNDYtNzhlNS00OTQwLWI5Y2EtN2RhODk3MTUzNDY1IiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9&pageName=ReportSection",
+  },
+  {
+    title: "Alura Relatorios usando a Linguagem DAX",
+    imagem: vendasdax,
+    url: "https://app.powerbi.com/view?r=eyJrIjoiMTI1NDViMzktMGEwOS00OWFlLWFlMzItMzEyYmVmMTJkYTM3IiwidCI6Ijk4NjgyMjQxLTZiZTMtNGRhNy04M2UwLTAyODQ2OGMzODBhMCJ9&pageName=ReportSectiond3384565433e43ac7598",
+  },
+  {
+    title: "Nlw Copa",
+    imagem: nlw,
+    url: "https://nlw-web-page-pxc.netlify.app/",
+  },
   {
     title: "Cardápio Aluroni",
     imagem: Aluroni,
@@ -38,8 +85,33 @@ export const works = [
     url: "https://frutoefruta-pxc.netlify.app/",
   },
   {
+    title: "Pong com P5/JS",
+    imagem: pong,
+    url: "https://pong-pxc.netlify.app/",
+  },
+  {
     title: "App de busca GitHub",
     imagem: gitsearch,
     url: "https://git-serch-pxc.netlify.app/",
+  },
+  {
+    title: "App do Bolão da Copa",
+    imagem: nlwMobile,
+    url: "https://nlw-copa-mobile-pxc.netlify.app/",
+  },
+  {
+    title: "To-do List",
+    url: "https://todolist-pxc.vercel.app/",
+    imagem: todo,
+  },
+  {
+    title: "Pong com Scratch",
+    url: "https://scratch.mit.edu/projects/772330536",
+    imagem: pongscratch,
+  },
+  {
+    title: "Alurinha - Flex Box",
+    url: "https://flex-box-alurinha.netlify.app/",
+    imagem: flexbox,
   },
 ];

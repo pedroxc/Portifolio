@@ -16,7 +16,17 @@ function Contato() {
           <img src={wpp} alt="wpp" />
         </a>
       </div>
-      <div>Email: pedroxaviercoelho@gmail.com</div>
+      <div>
+        Email:
+        <a
+          style={{ textDecoration: "none" }}
+          href="mailto:pedroxaviercoelho@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          pedroxaviercoelho@gmail.com
+        </a>
+      </div>
       <Links>
         <div>
           <img src={linkedin} alt="linkedinIcon" />

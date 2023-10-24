@@ -17,6 +17,11 @@ export const NaviBar = styled.div`
   justify-content: space-around;
   background-color: #fff;
   width: 100%;
+  @media (max-width: 1000px) {
+    min-width: 100vw;
+    height: fit-content;
+    flex-wrap: wrap;
+  }
 `;
 export const Nav = styled.button`
   border: none;
@@ -24,6 +29,9 @@ export const Nav = styled.button`
   font-size: 2rem;
   margin: 5px;
   color: #374254;
+  @media (max-width: 1000px) {
+    border-bottom: 1px solid black;
+  }
 `;
 
 export const Button = styled.button`
@@ -42,8 +50,10 @@ export const Works = styled.div`
   width: 100%;
   background: #ffffff;
   border-radius: 35px;
-  margin-top: 180px;
   background-color: #fffaeb;
+  box-shadow: 3px 0 10px 0 #fff;
+  margin: 15px;
+  margin-top: 50px;
 `;
 
 export const WorkTitle = styled.div`

@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import WorkCard from "../Trabalhos/Utils/Card";
+import Card from "../Trabalhos/Utils/Card";
+import WorkCard from "../Trabalhos/Utils/Card/workCard";
 import { works } from "../Trabalhos/Utils/utils";
 import Habilidades from "./habilidades";
 import Perfil from "./Perfil";
 import Curriculo from "./Curriculo";
+import Certificados from "../Certificados";
+import { recentWords } from "./utils";
 
 import {
   Title,
@@ -24,14 +27,17 @@ function Home() {
     main: "Perfil",
     second: "Skills",
     third: "Curriculo",
+    four: "Certificados",
   };
-  const [panel, setPanel] = useState(panels.second);
+  const [panel, setPanel] = useState(panels.main);
   let randomWorks = [...works];
   randomWorks = randomWorks.sort(() => 0.5 - Math.random()).splice(0, 3);
 
   return (
     <>
-      <Title>Programador Full Stack,Economista e Mestre em administração</Title>
+      <Title>
+        Programador Full Stack, Economista e Mestre em Administração
+      </Title>
       <Container>
         <NaviBar>
           <Nav
@@ -64,17 +70,37 @@ function Home() {
           >
             Currículo
           </Nav>
+          <Nav
+            onClick={() => {
+              setPanel(panels.four);
+            }}
+            style={
+              panel === "Certificados"
+                ? { color: "blue", fontWeight: "bold" }
+                : {}
+            }
+          >
+            Certificados
+          </Nav>
         </NaviBar>
         {panel === "Perfil" && <Perfil />}
         {panel === "Skills" && <Habilidades />}
         {panel === "Curriculo" && <Curriculo />}
+        {panel === "Certificados" && <Certificados />}
       </Container>
-
+      <Works>
+        <WorkTitle>Trabalhos recentes</WorkTitle>
+        <WorkWrapper>
+          {recentWords.map((e) => {
+            return <WorkCard data={e} />;
+          })}
+        </WorkWrapper>
+      </Works>
       <Works>
         <WorkTitle>Projetos</WorkTitle>
         <WorkWrapper>
           {randomWorks.map((e) => {
-            return <WorkCard data={e} />;
+            return <Card data={e} />;
           })}
         </WorkWrapper>
         <ButtonWarpper>

@@ -7,6 +7,13 @@ export const Container = styled.div`
   border-radius: 10px;
   padding: 15px;
   width: 50%;
+  @media screen and (max-width: 560px) {
+    width: 90vw;
+    marign: 25px auto;
+    font-size: 22px;
+  }
+  box-shadow: 3px 0 10px 0 #fff;
+
   img {
     height: 32px;
     margin: 5px;
